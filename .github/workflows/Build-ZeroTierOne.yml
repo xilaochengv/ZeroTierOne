@@ -17,4 +17,4 @@ jobs:
         with:
           files: zerotier-one-*
           tag_name: v${{ env.zerotier_tag_name }}
-          body: "每个人都可以自己免费编译的，不过需要花费的是学习编译的时间"
+          body: "ZeroTier-One 静态编译文件"
