@@ -1,6 +1,8 @@
 name: 编译ZeroTierOne静态二进制文件
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "30 21 * * *"
 jobs:
   build:
     name: 编译ZeroTierOne静态二进制文件
